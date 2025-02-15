@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 20px;
+        }
+        .inner{
+            display:flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            
+        }
+        .inner div{
+            flex:1;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .fun{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <div style="background-color: red;">a</div>
+            <div style="background-color: blue;">b</div>
+        </div>
+    <div  class="fun" style="background-color: green;">
+c
+    </div>
+</body>
+</html>
